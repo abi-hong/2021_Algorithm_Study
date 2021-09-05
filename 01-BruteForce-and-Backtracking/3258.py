@@ -1,8 +1,7 @@
 N, Z, M = map(int, input().split())
-s = input().split()
-x = map(int, s)  # 리스트 s에 들어감
+s = list(map(str, input().split()))
 
-# 원형인거 생각하자!!
+# 원형인거 생각하자!
 for k in range(1, Z):
     result = 1
     while (1):
